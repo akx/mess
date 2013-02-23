@@ -1,6 +1,5 @@
 import random
 import time
-from mess.db import get_metric_id, insert_measurements
 from mess.queue import enqueue, insert_queue
 
 __author__ = 'Aarni'
