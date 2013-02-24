@@ -39,4 +39,4 @@ if __name__ == "__main__":
 		from mess.testing import run_test
 		run_test()
 	else:
-		app.run(debug=args.debug, port=args.port)
+		app.run(debug=args.debug, host="0.0.0.0", port=args.port)
